@@ -1,23 +1,31 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
   <title>Operario - Registro de Producción</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h2>Panel Operario</h2>
-    <label>Fecha: <input type="date"></label><br>
-    <label>Actividad: <input type="text" placeholder="Descripción"></label><br>
-    <label>Estado:
-      <select>
-        <option>En Proceso</option>
-        <option>Finalizado</option>
-      </select>
-    </label><br>
-    <button>Guardar Registro</button><br><br>
-    <a href="index.html">Cerrar Sesión</a>
+  <div class="form-container">
+    <h2>🛠️ Panel Operario</h2>
+
+    <label for="fecha">📅 Fecha:</label>
+    <input type="date" id="fecha" name="fecha">
+
+    <label for="actividad">📝 Actividad:</label>
+    <input type="text" id="actividad" name="actividad" placeholder="Descripción de la actividad">
+
+    <label for="estado">📊 Estado:</label>
+    <select id="estado" name="estado">
+      <option>En Proceso</option>
+      <option>Finalizado</option>
+    </select>
+
+    <button onclick="alert('Registro guardado correctamente ✅')">💾 Guardar Registro</button>
+
+    <br><br>
+    <a href="index.html" class="logout-link">⏪ Cerrar Sesión</a>
   </div>
 </body>
 </html>
+
