@@ -1,20 +1,38 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
   <title>Consulta de Registros</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h2>Consulta de Registros</h2>
-    <table border="1">
-      <tr><th>Fecha</th><th>Actividad</th><th>Estado</th></tr>
-      <tr><td>2025-08-15</td><td>Montaje de piezas</td><td>En Proceso</td></tr>
-      <tr><td>2025-08-16</td><td>Control de calidad</td><td>Finalizado</td></tr>
+  <div class="form-container">
+    <h2>📁 Consulta de Registros</h2>
+
+    <table class="tabla-registros">
+      <thead>
+        <tr>
+          <th>📅 Fecha</th>
+          <th>📝 Actividad</th>
+          <th>📊 Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2025-08-15</td>
+          <td>Montaje de piezas</td>
+          <td>En Proceso</td>
+        </tr>
+        <tr>
+          <td>2025-08-16</td>
+          <td>Control de calidad</td>
+          <td>Finalizado</td>
+        </tr>
+      </tbody>
     </table>
+
     <br>
-    <a href="admin.html">Volver</a>
+    <a href="admin.html" class="logout-link">⏪ Volver al Panel</a>
   </div>
 </body>
 </html>
