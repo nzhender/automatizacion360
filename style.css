@@ -102,3 +102,27 @@
   text-decoration: underline;
 }
 
+.tabla-registros {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.tabla-registros th,
+.tabla-registros td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabla-registros th {
+  background-color: #007BFF;
+  color: white;
+}
+
+.tabla-registros tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
